@@ -25,12 +25,18 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQp-Pi-1IG">
                                             <rect key="frame" x="20" y="19.5" width="63" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="OQp-Pi-1IG" secondAttribute="height" multiplier="21:10" id="VyC-xQ-MNk"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="25"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09/08/2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gll-V8-1UV">
                                             <rect key="frame" x="23" y="51" width="57" height="13"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Gll-V8-1UV" secondAttribute="height" multiplier="57:13" id="Joy-U0-vrq"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>

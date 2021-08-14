@@ -14,7 +14,7 @@ let categoryWork = Category(name: "Work", color: UIColor.red)
 let tasks: [Task] = [
     Task(name: "Create presentation for tomorrow", date: Date(), category: categoryWork),
     Task(name: "Study for math class", date: Date(), category: categoryStudy),
-    Task(name: "Practice Swift", date: Date(), category: categoryStudy)
+    Task(name: "Practice Swift! Because i want to be a developper who codes hard. I love Swift and all Apple Ecosystem. This phrase will be so long, because i want test the auto layout of my app.", date: Date(), category: categoryStudy)
 ]
 
 class TasksTableViewController: UITableViewController {
